@@ -38,7 +38,7 @@ Proyecto Articulador Programacion III
 
 - Camila Mosquera: 
 	- Hacer el traspaso de su página trabajada en el corte anterior (Champions) a Java Servlets y/o JSP
-
+.
 
 - Fabián Suarez:
 	- Hacer el traspaso de su página trabajada en el corte anterior (Mundial) a Java Servlets y/o JSP
