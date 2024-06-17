@@ -8,13 +8,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="icon" href="img/balon-de-futbol.png" type="image/x-icon">
 <link rel="stylesheet" href="style_mundial.css">
 </head>
 <meta charset="UTF-8">
-<title>Fuvol</title>
+<title>Copa Mundial de la FIFA Catar 2022™</title>
 </head>
 <body>
-	<h1>Fuvol</h1>
-	<!--  <a class="title" href="competencias/champions.html">CHAMPIONS 2024</a> -->
+
 </body>
 </html>
