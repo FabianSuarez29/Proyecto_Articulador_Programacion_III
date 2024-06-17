@@ -1,0 +1,486 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body{
+    margin: 0;
+    background-color: rgb(238,238,228);
+}
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: "Russo One", sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+h2 {
+    color: rgb(0, 0, 0);
+    font-family: "Russo One", sans-serif;
+    font-style: normal;
+    text-align: center;
+    font-weight: 100;
+}
+h3 {
+    color: rgb(0, 0, 0);
+    font-family: "Russo One", sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+h5 {
+    color: rgb(0, 0, 0);
+    font-family: "Russo One", sans-serif;
+    font-size: large;
+    font-style: normal;
+    text-align: center;
+}
+p {
+    font-family: sans-serif;
+    font-size: medium;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.clasecreadaparacentrarundiv {
+    justify-content: center;
+    display: flex;
+}
+
+/* Header */
+ul.nav {
+    display: flex;
+    /* ↓ Centra horizontalmente los elementos */
+    justify-content: center;
+    /* ↓ Centra verticalmente los elementos */
+    align-items: center;
+    list-style: none;
+    margin: 0;
+}
+#nav {
+    background: linear-gradient(to right, rgb(0, 0, 64), #8d1c3d);
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+}
+a.title {
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    /* ↓ Elimina el subrayado */
+    text-decoration: none;
+    /* ↓ Transición suave para el cambio de color */
+    transition: color 0.3s;
+}
+a.title:hover {
+    /* ↓ Cambia el color al pasar el cursor */
+    color: #ffcc00;
+}
+li.title {
+    padding: 0 7%;
+}
+#logo_champions {
+    /* ↓ Invertir color */
+    filter: invert(100%);
+    height: 50px;
+    width: auto;
+}
+#logo_mundial {
+    height: 50px;
+    width: auto;
+}
+/* ~~~~~ */
+
+/* Banner */
+.banner {
+    background-image: url(../../img/background-qatar-III.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    padding: 2%;
+    margin-top: 70px;
+}
+.banner h2 {
+    color: white;	
+    letter-spacing: 2px;
+    text-align: left;
+}
+.banner-cont {
+    margin-bottom: 10px;
+    justify-content: center;
+    display: flex;
+}
+.bloque1 {
+    /* ↓ Alto del bloque*/
+    height: 380px; 
+    /* ↓ Ancho del bloque*/
+    width: 56%; 
+    display: inline-block;
+}
+.vid1{
+    width: 100%;
+    border-radius: 8px;
+    border: black 1px solid;
+    transition: 0.5s;
+}
+.vid1:hover {
+    transform: scale(1.01);
+}
+.bloque2 {
+    padding-left: 15px;
+    padding-right: 20px;
+    height: 390px;
+    width: 32%;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: rgba(20,4,63, 0.2);  
+}
+.lista {
+    color: white;
+    font-family: sans-serif;
+    font-size: medium;
+    margin: 0 auto;
+    font-weight: 600;
+}
+.lista li {
+    padding-bottom: 10px;
+}
+.bloques {
+    margin: 1%;
+    /* ↓ Linea para ver contenedores */
+    /* background-color: rgb(109,17,48);  */
+}
+/* ~~~~~ */
+
+/* Carrusel */
+.jugadores {
+    background-color: rgb(238,238,228);
+    padding: 2%;
+    padding-bottom: 4%;
+    text-align: center;
+}
+.carrusel {
+    padding: 16px;
+    display: flex;
+    overflow-y: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* ↓ Linea para ver contenedor del carrusel */
+    /* background-color: rgb(226, 226, 219); */
+}
+.carta {
+    margin-right: 5px;
+    margin-left: 5px;
+    position: relative;
+    /* ↓ Linea para ver contenedor de las cartas */
+    /* background-color: rgba(61, 60, 60, 0.8); */
+}
+.carta .img-cart {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    /* ↓ Tiempo de transición de acercamiento */
+    transition: 0.5s;
+    /* ↓ Linea para ver contenedor de las imágenes */
+    /* background-color: rgba(139, 138, 138, 0.8); */
+}
+/* ↓ Transición de acercamiento */
+.img-cart:hover {
+    transform: scale(1.1);
+}
+.cuerpo_carta {
+    /* ↓ Sobreponer cuerpo en la carta*/
+    /* position: absolute; */
+    text-align: center;
+    bottom: 0;
+    color: black;
+    /* ↓ Linea para ver contenedor de los cuerpos */
+    /* background-color: rgba(184, 181, 181, 0.8); */
+}
+.cuerpo_carta h5, .cuerpo_carta p {
+    margin: 0;
+}
+/* ~~~~~ */
+
+/* Momentos Destacables */
+.momentos-cont {
+    background-image: url(../../img/background-qatar-V.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.momentos-cont h2 {
+    color: white;
+}
+.momentos {
+    margin-top: 3%;
+    margin-bottom: 2%;
+    justify-content: center;
+    display: flex;
+}
+.bloque3 {
+    width: 340px;
+    float:left;
+}
+.bloque3 h3 {
+    color: white;
+    letter-spacing: 2px;
+    text-align: left;
+    font-weight: 100;
+}
+.img2 {
+    width: 100%;
+    border-radius: 8px;
+    border: yellow 1px solid;
+    transition: 0.5s;
+}
+.img2:hover {
+    transform: scale(1.05);
+}
+.bloque4 {
+    width: 340px;
+    display: inline-block;
+}
+.bloque4 h3 {
+    color: white;
+    letter-spacing: 2px;
+    text-align: left;
+    font-weight: 100;
+}
+.vid2{
+    width: 100%;
+    border-radius: 8px;
+    border: yellow 1px solid;
+    transition: 0.5s;
+}
+.vid2:hover {
+    transform: scale(1.05);
+}
+.bloques2 {
+    margin-left: 8%;
+    margin-right: 8%;
+    /* ↓ Linea para ver contenedores */
+    /* background-color: rgb(109,17,48); */
+}
+/* ~~~~~ */
+
+/* Cuadro */
+.cuadro {
+    background-color: rgb(238,238,228);
+    padding: 2%;
+    padding-bottom: 4%;
+    text-align: center;
+}
+.img1 {
+    width: 1069px;
+}
+/* ~~~~~ */
+
+/* Mascota */
+.mascota {
+    background-image: url(../../img/background-qatar.png);
+    background-size: cover;
+    background-position: center;
+    padding: 2%;
+    padding-bottom: 4%;
+    text-align: center;
+}
+.mascota h2 {
+    color: white;
+}
+.img3 {
+    width: 350px;
+    transition: 0.5s;
+}
+.img3:hover {
+    transform: scale(1.1);
+}
+.bloque5 {
+    width: 60%;
+    border-radius: 8px;
+    color: rgb(238,238,228);
+    background-color: rgba(66, 66, 66, 0.685);
+    border: rgba(109,17,48) 2px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.bloque5 h3 {
+    color: rgb(238,238,228);
+    font-weight: 100;
+}
+.bloque5 p {
+    text-align: justify;
+}
+/* ~~~~~ */
+
+/* Tablas y juego*/
+.tablas-cont {
+    background-color: rgb(238,238,228);
+    padding: 2%;
+    padding-bottom: 4%;
+    text-align: center;
+}
+.tablas-cont .td1{
+    text-align: left;
+}
+.tabla{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 330px;
+    display: inline-block;
+    margin: 0 15px;
+    margin-top: 20px;
+    /* background-color: #8d1c3d; */
+}
+th, td {
+    padding: 7px 8px 7px 8px;
+    border: solid 1px;
+}
+th {
+    background-color: rgba(151, 7, 7, 0.9);
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    text-align: center;
+}
+td {
+    background-color: rgb(235, 144, 149);
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    text-align: center;
+}
+.img4 {
+    width: 20px;
+}
+.juego{
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-right: 20px;
+    height: 100x;
+    width: 290px;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: rgba(151, 7, 7, 0.5);
+    border: rgb(151, 7, 7) 1px solid;  
+}
+.cont-juego {
+    padding-right: 18px;
+}
+/* ~~~~~ */
+
+/* Resumen */
+.resumen {
+    background-image: url(../../img/background-qatar-II.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 2%;
+    padding-bottom: 4%;
+    text-align: center;
+}
+.resumen h2 {
+    color: white;
+}
+.bloque6 {
+    width: 700px;
+    display: inline-block;
+}
+.vid3{
+    width: 100%;
+    border-radius: 8px;
+    border: yellow 1px solid;
+}
+/* ~~~~~ */
+
+/* Footer */
+footer {
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url("../../img/background-champions-2.webp");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0 0 0;
+    width: 100%;
+}
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logos img {
+    margin-right: 10px;
+    width: auto;
+    height: 110px;
+}
+.redes-sociales {
+    margin-left: 20px;
+    text-align: center;
+}
+.redes-sociales a {
+    margin: 0 5px;
+    color: #fff;
+    font-size: 30px;
+}
+.redes-sociales .titulo {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.redes-sociales a:hover {
+    color: #df688c;
+}
+.newsletter {
+    margin-left: 20px;
+}
+.newsletter input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.newsletter button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 15px;
+}
+.newsletter button:hover {
+    background-color: #6e0021;
+    color: #ffffff;
+}
+.inferior {
+    background-color: #222222a8;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 75px;
+    width: 100%;
+}
+.inferior p {
+    margin: 0;
+    font-size: 14px;
+}
+.inferior a {
+    color: #fff;
+    font-size: 14px;
+    margin: 0 5px;
+}
+.inferior a:hover {
+    color: #ddd;
+}
+.newsletter h2, .redes-sociales h2 {
+    color: white;
+}
+/* ~~~~~ */
