@@ -94,7 +94,7 @@ li.title {
 
 /* Banner */
 .banner {
-    background-image: url(../../img/background-qatar-III.jpg);
+    background-image: url(img/background-qatar-III.jpg);
     background-size: cover;
     background-position: center;
     justify-content: center;
@@ -205,7 +205,7 @@ li.title {
 
 /* Momentos Destacables */
 .momentos-cont {
-    background-image: url(../../img/background-qatar-V.jpg);
+    background-image: url(img/background-qatar-V.jpg);
     background-size: cover;
     background-position: center;
     justify-content: center;
@@ -282,7 +282,7 @@ li.title {
 
 /* Mascota */
 .mascota {
-    background-image: url(../../img/background-qatar.png);
+    background-image: url(img/background-qatar.png);
     background-size: cover;
     background-position: center;
     padding: 2%;
@@ -374,7 +374,7 @@ td {
 
 /* Resumen */
 .resumen {
-    background-image: url(../../img/background-qatar-II.jpg);
+    background-image: url(img/background-qatar-II.jpg);
     background-size: cover;
     background-position: center;
     padding: 2%;
@@ -400,7 +400,7 @@ footer {
     font-family: "Russo One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-image: url("../../img/background-champions-2.webp");
+    background-image: url("img/background-champions-2.webp");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
