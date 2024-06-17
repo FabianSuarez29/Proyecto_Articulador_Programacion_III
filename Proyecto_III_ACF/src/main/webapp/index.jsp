@@ -16,6 +16,6 @@
 <body>
 	<h1>Fuvol</h1>
 	
-	<a class="title" href="competencias/champions.html">CHAMPIONS 2024</a>
+	<a class="title" href="champions.jsp">CHAMPIONS 2024</a>
 </body>
 </html>
