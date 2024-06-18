@@ -40,7 +40,7 @@ public class AddLogin extends HttpServlet {
 
         if (isAuthenticated) {
             request.getSession().setAttribute("user", username);
-            response.sendRedirect("champions.jsp");
+            response.sendRedirect("home.jsp");
         } else {
             response.sendRedirect("index.jsp?error=1");
         }

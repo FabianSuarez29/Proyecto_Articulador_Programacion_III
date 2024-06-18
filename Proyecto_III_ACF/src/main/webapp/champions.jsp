@@ -19,7 +19,7 @@
 					alt="icon_champions">
 				<li class="title"><a class="title" href="champions.jsp">CHAMPIONS
 						2024</a></li>
-				<li class="title"><a class="title" href="index.jsp">HOME</a></li>
+				<li class="title"><a class="title" href="home.jsp">HOME</a></li>
 				<li class="title"><a class="title" href="mundial.jsp">MUNDIAL
 						QATAR 2022</a></li>
 				<img id="logo_mundial" src="img/logoqatar.png" alt="icon_mundial">
