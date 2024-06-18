@@ -32,18 +32,19 @@ Proyecto Articulador Programacion III
 
 - Andrés gerena: 
 	- Hacer el traspaso de su página trabajada en el corte anterior (Índice) a Java Servlets y/o JSP.
-   	- Crear un prototípo de pronosticador de resultados de partidos (Opcional).
-   	- Se crea un pronosticador que utiliza datos estadisticos para arrojar predicciones.
+   	- Creación de un prototípo de pronosticador de resultados de partidos (Opcional).
+   	- Creación de un pronosticador que utiliza datos estadisticos para arrojar predicciones.
 
 
 - Camila Mosquera: 
 	- Hacer el traspaso de su página trabajada en el corte anterior (Champions) a Java Servlets y/o JSP.
- 	- Creación Login.
-  	- Creación Registro.	 	
+ 	- Creación de Login.
+  	- Creación de Registro de nuevos usuarios.	 	
 
 
 - Fabián Suarez:
 	- Hacer el traspaso de su página trabajada en el corte anterior (Mundial) a Java Servlets y/o JSP.
+   	- Creación de módulo de Sistemas de Juego, guía más ejercicios.
 
 
 #MAPA CONCEPTUAL
