@@ -15,10 +15,6 @@
     <servlet-name>FormularioAgregarServlet</servlet-name>
     <servlet-class>FormularioAgregarServlet</servlet-class>
   </servlet>
-  <servlet-mapping>
-    <servlet-name>mundialServlet</servlet-name>
-    <url-pattern>/mundialServlet</url-pattern>
-  </servlet-mapping>
   <servlet>
     <description></description>
     <display-name>AddServletMundial</display-name>
