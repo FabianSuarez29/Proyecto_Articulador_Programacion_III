@@ -774,19 +774,24 @@
 	<div class="cuadro">
 		<h2>SELECCIÓN DE SISTEMA DE JUEGO</h2>
 		<div class="container2">
-			<form action="AddServlet" method="post">
+		
+		<!--
+			<form action="AddServletMundial" method="post">
 				Sistema de Juego: <input type="text" name="s1"><br> <input
 					type="submit">
 			</form>
-			<!-- <form action="AddServletMundial" method="post">
+			
+			-->
+			
+			 <form action="AddServletMundial" method="post">
 				<label>Sistema de Juego: </label> <select id="opciones"
 					name="opciones">
-					<option value=""></option>
+					<option value="0"></option>
 					<option value="442">4 - 4 - 2</option>
 					<option value="343">3 - 4 - 3</option>
 				</select>
-				<button type="button">Guardar</button>
-			</form>  -->
+				<input type="submit" value="Buscar">
+			</form>  
 		</div>
 	</div>
 

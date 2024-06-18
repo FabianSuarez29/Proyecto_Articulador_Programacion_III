@@ -395,6 +395,70 @@ td {
 }
 /* ~~~~~ */
 
+/* Sistema de Juego */
+.form2{
+    display: flex;
+    text-align: center;
+}
+
+.form2 p2 {
+    font-family: sans-serif;
+    font-size: large;
+    margin: 0 auto;
+}
+/* ~~~~~ */
+
+/* Seleccion de Sistema */
+.selecsis {
+    background-color: rgb(238,238,228);
+    margin: 3%;
+    width: 92%;
+    padding: 2%;
+    padding-bottom: 4%;
+    text-align: center;
+    width: 60%;
+    border-radius: 8px;
+    color: rgb(238,238,228);
+    background-color: rgba(121, 116, 116, 0.685);
+    border: rgba(109,17,48) 2px solid;
+}
+.selecsis h2 {
+    color: white;
+}
+.img3 {
+    width: 350px;
+    transition: 0.5s;
+}
+.img8 {
+    border-radius: 8px;
+    border: rgba(109,17,48) 2px solid;
+}
+.img3:hover {
+    transform: scale(1.1);
+}
+.bloque5 {
+    width: 60%;
+    border-radius: 8px;
+    color: rgb(238,238,228);
+    background-color: rgba(66, 66, 66, 0.685);
+    border: rgba(109,17,48) 2px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 30px;
+}
+.bloque5 h3 {
+    color: rgb(238,238,228);
+    font-weight: 100;
+}
+.bloque5 p {
+    text-align: justify;
+}
+.formm{
+	margin: 20xp;
+}
+/* ~~~~~ */
+
 /* Footer */
 footer {
     font-family: "Russo One", sans-serif;
