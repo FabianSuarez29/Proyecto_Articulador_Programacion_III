@@ -27,9 +27,9 @@
         <nav id="nav">
             <ul class="nav">
                 <img id="logo_champions" src="assets/img/logo-champions-icono.png" alt="icon_champions">
-                <li class="title"><a class="title" href="competencias/champions.html">CHAMPIONS 2024</a></li>
-                <li class="title"><a class="title" href="index.html">HOME</a></li>
-                <li class="title"><a class="title" href="competencias/mundial.html">MUNDIAL QATAR 2022</a></li>
+                <li class="title"><a class="title" href="champions.jsp">CHAMPIONS 2024</a></li>
+                <li class="title"><a class="title" href="home.jsp">HOME</a></li>
+                <li class="title"><a class="title" href="mundial.jsp">MUNDIAL QATAR 2022</a></li>
                 <img id="logo_mundial" src="assets/img/logoqatar.png" alt="icon_mundial">
             </ul>
         </nav>
