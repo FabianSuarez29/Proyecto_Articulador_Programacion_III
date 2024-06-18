@@ -9,4 +9,14 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>FormularioAgregarServlet</display-name>
+    <servlet-name>FormularioAgregarServlet</servlet-name>
+    <servlet-class>FormularioAgregarServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FormularioAgregarServlet</servlet-name>
+    <url-pattern>/formularioAgregar</url-pattern>
+  </servlet-mapping>
 </web-app>

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cfcfcf;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.tables {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.tab {
+    margin: 0 15px;
+}
+
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e0ce4e;
+}
+
+/* Estilos responsivos */
+
+
+@media screen and (max-width: 600px) {
+    table {
+        width: 100%;
+        margin: 10px auto;
+    }
+    th, td {
+        padding: 8px;
+        font-size: 12px;
+    }
+}
