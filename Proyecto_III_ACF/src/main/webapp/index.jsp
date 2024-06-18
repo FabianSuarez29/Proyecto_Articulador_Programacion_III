@@ -9,6 +9,8 @@
 <head>
 
 <meta charset="UTF-8">
+
+<title>Login</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style_index.css">
 
@@ -27,8 +29,8 @@
 	</header>
 
 	<sql:setDataSource var="dbSource" driver="com.mysql.cj.jdbc.Driver"
-                   url="jdbc:mysql://localhost:3306/proyecto_futbol"
-                   user="dba" password="123456789.eT"/>
+		url="jdbc:mysql://localhost:3306/proyecto_futbol" user="dba"
+		password="123456789.eT" />
 
 	<div class="login-container">
 		<form action="AddLogin" method="post">
@@ -44,18 +46,19 @@
 				<input type="submit" value="Login">
 			</div>
 		</form>
-		
-			<div class="form-group">
-				<a href="createUser.jsp"><input type="submit" value="Create"></a> <br>
-			</div>
-			
-			 <%
- String error = request.getParameter("error");
- if (error != null) {
- 	out.println("<p class='error'>Invalid username or password.</p>");
- }
- %>
-		
+
+		<div class="form-group">
+			<a href="createUser.jsp"><input type="submit" value="Create"></a>
+			<br>
+		</div>
+
+		<%
+		String error = request.getParameter("error");
+		if (error != null) {
+			out.println("<p class='error'>Invalid username or password.</p>");
+		}
+		%>
+
 	</div>
 
 </body>

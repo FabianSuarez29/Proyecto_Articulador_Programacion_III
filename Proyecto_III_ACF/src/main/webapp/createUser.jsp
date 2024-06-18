@@ -9,12 +9,13 @@
 <head>
 <meta charset="UTF-8">
 <title>Create User</title>
+<link rel="icon" href="img/balon-de-futbol.png" type="image/x-icon">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style_createUser.css">
+<link rel="stylesheet" href="style_index.css">
 </head>
 <body>
 
-<header id="header">
+	<header id="header">
 		<nav id="nav">
 			<ul class="nav">
 				<img id="logo_champions" src="img/logo-champions-icono.png"
@@ -24,16 +25,21 @@
 			</ul>
 		</nav>
 	</header>
-
-		<div class="container">
-				<form class="user-form" action="AddUser.jsp" method="post">
-					User: <input type="text" name="User" /><br /> 
-					Password: <input
-						type="text" name="Password" /><br />
-					<div class="form-group"> <button type="submit" value="Added user"/></button></div>
-				</form>
-		</div>
-
-
+	
+	<div class="login-container">
+		<form action="AddUser.jsp" method="post">
+			<div class="form-group">
+				<label for="username">Username:</label> <input type="text"
+					id="username" name="User" required>
+			</div>
+			<div class="form-group">
+				<label for="password">Password:</label> <input type="password"
+					id="password" name="Password" required>
+			</div>
+			<div class="form-group">
+				<input type="submit" value="Create">
+			</div>
+		</form>
+	</div>
 </body>
 </html>

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 body {
 	font-family: Arial, sans-serif;
 	background: linear-gradient(to right, #02007e 0%, rgb(0, 0, 64) 27.5%,
@@ -8,15 +9,6 @@ body {
 	align-items: center;
 	height: 100vh;
 	margin: 0;
-}
-
-.container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    width: 100%;
 }
 
 /*Header*/
@@ -79,7 +71,7 @@ li.title {
 }
 
 /* --------------------------- */
-.login-container {
+.create-container {
 	color: #ffffff;
 	position: relative;
 	width: 30%;
@@ -96,16 +88,36 @@ li.title {
 	text-align: left;
 }
 
-.user-form button {
-    width: 100%;
-    padding: 10px;
-    background-color: #ffff00;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+label {
+	display: block;
+	margin-bottom: 5px;
 }
 
-.user-form button:hover {
-    background-color: #ffffff;
+input[type="text"], input[type="password"] {
+	width: 100%;
+	padding: 8px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+input[type="submit"] {
+	width: 100%;
+	padding: 10px;
+	border: linear-gradient(to right, rgb(0, 0, 64), #8d1c3d) 1px solid;
+	border-radius: 4px;
+	background-color: rgba(66, 66, 66, 0.000);
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #ffee00;
+	color: black;
+}
+
+.error {
+	color: red;
+	margin-top: 10px;
 }
