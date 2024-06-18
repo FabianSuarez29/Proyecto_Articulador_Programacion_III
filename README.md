@@ -31,15 +31,15 @@ Proyecto Articulador Programacion III
 # Repartición del Trabajo
 
 - Andrés gerena: 
-	- Hacer el traspaso de su página trabajada en el corte anterior (Índice) a Java Servlets y/o JSP
-   	- Creadión de Loguin
-   	- Crear un prototípo de pronosticador de resultados de partidos (Opcional)
+	- Hacer el traspaso de su página trabajada en el corte anterior (Índice) a Java Servlets y/o JSP.
+   	- Crear un prototípo de pronosticador de resultados de partidos (Opcional).
+   	- Se crea un pronosticador que utiliza datos estadisticos para arrojar predicciones.
 
 
 - Camila Mosquera: 
-	- Hacer el traspaso de su página trabajada en el corte anterior (Champions) a Java Servlets y/o JSP
-.
+	- Hacer el traspaso de su página trabajada en el corte anterior (Champions) a Java Servlets y/o JSP.
+ 	- Creación Login.
+  	- Creación Registro.	 	
 
 - Fabián Suarez:
-	- Hacer el traspaso de su página trabajada en el corte anterior (Mundial) a Java Servlets y/o JSP
-   	- Creación de módulo para que los usuarios se registren
+	- Hacer el traspaso de su página trabajada en el corte anterior (Mundial) a Java Servlets y/o JSP.
