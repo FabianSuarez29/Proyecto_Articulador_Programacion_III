@@ -325,7 +325,7 @@
 			<div class="redes-sociales">
 				<h2 class="titulo">REDES SOCIALES</h2>
 				<div>
-					<a href="https://www.facebook.com/ChampionsLeague/" target="_blank"><i
+					<a href="https://www.facebook.com/ChampionsLeague/?locale=es_LA" target="_blank"><i
 						class="fa-brands fa-facebook"></i></a> <a
 						href="https://twitter.com/ChampionsLeague" target="_blank"><i
 						class="fa-brands fa-x-twitter"></i></a> <a
@@ -351,6 +351,5 @@
 				condiciones</a>
 		</div>
 	</footer>
-
 </body>
 </html>
