@@ -16,13 +16,6 @@
     <servlet-class>FormularioAgregarServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>FormularioAgregarServlet</servlet-name>
-    <url-pattern>/formularioAgregar</url-pattern>
-    <display-name>mundialServlet</display-name>
-    <servlet-name>mundialServlet</servlet-name>
-    <servlet-class>mundialServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
     <servlet-name>mundialServlet</servlet-name>
     <url-pattern>/mundialServlet</url-pattern>
   </servlet-mapping>
