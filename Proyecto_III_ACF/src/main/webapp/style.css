@@ -1,0 +1,526 @@
+@charset "ISO-8859-1";
+
+/* Importación Fuente de Google*/
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+
+body {
+    background: linear-gradient(to right, #02007e 0%, rgb(0, 0, 64) 27.5%, #790630 72.5%, #590424 100%);
+
+    margin: 0;
+    color: #ffffff;
+}
+
+/*Header*/
+
+ul.nav {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente los elementos */
+    align-items: center;
+    /* Centra verticalmente los elementos */
+    list-style: none;
+    margin: 0;
+}
+
+#nav {
+    background: linear-gradient(to right, rgb(0, 0, 64), #8d1c3d);
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+a.title {
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    /* Elimina el subrayado */
+    transition: color 0.3s;
+    /* Transición suave para el cambio de color */
+}
+
+a.title:hover {
+    color: #ffcc00;
+    /* Cambia el color al pasar el cursor */
+}
+
+li.title {
+    padding: 0 7%;
+}
+
+#logo_champions {
+    filter: invert(100%);
+    height: 50px;
+    width: auto;
+}
+
+#logo_mundial {
+    height: 50px;
+    width: auto;
+}
+
+/*---------------------------------*/
+
+
+
+/*Banner*/
+
+#banner {
+    background: linear-gradient(to right, rgb(0, 0, 64), #6e0021);
+    /*se define color de fondo para el banner*/
+    display: flex;
+    position: relative;
+    /*se posicionan elementos hijos*/
+    margin-top: 70px;
+}
+
+#banner img {
+    flex: 1;
+    /* Hace que las imágenes ocupen el mismo espacio dentro del contenedor flex */
+    object-fit: cover;
+    /*mantiene el tamaño sin desproporcionar imagen*/
+    width: 50%;
+    height: 60vh;
+}
+
+#banner img#bg_champions {
+    mask-image: linear-gradient(to right, rgb(255, 255, 255) 95%, transparent);
+}
+
+#banner img#bg_qatar {
+    mask-image: linear-gradient(to left, rgb(255, 255, 255) 95%, transparent);
+}
+
+#super {
+    position: absolute;
+    /* Posicionamiento absoluto */
+    top: 50%;
+    /* Centrado vertical */
+    left: 47%;
+    /* Centrado horizontal */
+    transform: translate(-50%, -50%);
+    /* Ajuste para centrado horizontal y vertical */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#super img#trof_1 {
+    margin-right: 50%;
+    width: auto;
+    height: 45vh;
+    position: relative;
+    z-index: 1;
+    filter: drop-shadow(rgba(255, 255, 255, 0.66) 0px 0px 10px);
+    transition: transform 0.5s ease-in-out 0s;
+}
+
+#super img#trof_2 {
+    margin-left: 50%;
+    width: auto;
+    height: 43vh;
+    position: relative;
+    z-index: 1;
+    filter: drop-shadow(rgba(255, 255, 255, 0.66) 0px 0px 10px);
+    transition: transform 0.5s ease-in-out 0s;
+}
+
+#super img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#btns button {
+    margin: 0 25%;
+    position: relative;
+    transition: transform 0.3s ease-in-out 0s;
+}
+
+#btns {
+    position: absolute;
+    /* Posicionamiento absoluto */
+    top: 50%;
+    /* Centrado vertical */
+    left: 50%;
+    /* Centrado horizontal */
+    transform: translate(-50%, -50%);
+    /* Ajuste para centrado horizontal y vertical */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button#button2 {
+    left: 90%;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #6e0021;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    cursor: pointer;
+    border-color: #ffffff;
+    z-index: 2;
+
+}
+
+button#button1 {
+    right: 90%;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 64);
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    cursor: pointer;
+    border-color: #ffffff;
+    z-index: 2;
+
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/*----------------------------------*/
+
+h1 {
+    color: #ffffff;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+    position: absolute;
+    /* Posicionamiento absoluto */
+    top: 5%;
+    /* Centrado vertical */
+    left: 50%;
+    /* Centrado horizontal */
+    transform: translate(-50%, -50%);
+    /* Ajuste para centrado horizontal y vertical */
+    z-index: 1;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+
+p.text {
+    font-family: sans-serif;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+/*LISTAS -- Goleadores Ultimas Ediciones */
+
+.cont_listas {
+    margin: 0 auto;
+    width: 90%;
+    /* background: linear-gradient(to right, rgb(0, 0, 64), #8d1c3d); */
+    display: flex;
+
+}
+
+.col1,
+.col2 {
+    border-radius: 50px;
+    border: 3px solid #ffffff;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+}
+
+.col3,
+.col4 {
+    /* background-color: #0813b3; */
+    /*border: 5px solid #0813b3; */
+    box-sizing: border-box;
+    /* Hace que el ancho del borde se incluya dentro del ancho total */
+    flex: 1;
+    margin: 3px;
+}
+
+.col5 {
+    text-align: center;
+    border-radius: 50px;
+    border: 3px solid #ffffff;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+
+#estadisticas {
+    padding: 20px;
+}
+
+img.cr7,
+img.klose {
+    width: auto;
+    height: 200px;
+}
+
+/*----------------------------------*/
+
+
+/*Jugadores Emblema*/
+
+#emblemas {
+    background-color: rgba(255, 255, 255, 0.774) !important;
+    border-radius: 15px;
+    color: #02007e;
+    border: 3px solid #ffee00;
+    padding: 30px;
+
+}
+
+h2.title-emblema {
+    color: #02007e;
+}
+
+#jugadores {
+    text-align: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    /*centra imagenes en ambas direcciones*/
+}
+
+img.emblema {
+    height: 270px;
+    width: auto;
+    object-fit: cover;
+
+}
+
+/*----------------------------------*/
+
+/*Tablas*/
+
+.tables {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+table {
+    width: 100%;
+}
+
+.tab {
+    margin: 0 15px;
+}
+
+
+
+th,
+td {
+    padding: 7px 10px 10px 10px;
+    border: solid 1px;
+}
+
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    text-align: left;
+
+}
+
+tr:hover {
+    background-color: #794e00;
+}
+
+/*---------------------*/
+
+
+
+.recuadros{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+/*AÑOS COPAS DEL MUNDO*/
+
+.copas {
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto;
+    border: solid 3px #ffcc00;
+    border-radius: 15px;
+  }
+  
+  .copasm {
+    width: 90%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 25px auto;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .copasm:hover {
+    background-color: #794e00;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  }
+
+/*VIDEOS*/
+
+.videos {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+}
+
+.vid {
+    flex: 1;
+    margin: 20px;
+    filter: drop-shadow(rgba(255, 255, 255, 0.699) 0px 0px 15px);
+}
+
+/*--------------------*/
+
+
+/*Juego Suma*/
+
+.juego {
+    position: relative;
+    width: 30%;
+    height: auto;
+    padding: 25px;
+    margin: 50px auto;
+    text-align: center;
+    border: solid 3px #ffcc00;
+    border-radius: 15px;
+}
+
+/*-----------------------*/
+
+
+/*Footer*/
+
+footer {
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url("../img/background-champions-2.webp");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0 0 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logos img {
+    margin-right: 10px;
+    width: auto;
+    height: 110px;
+}
+
+.redes-sociales {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.redes-sociales a {
+    margin: 0 5px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.redes-sociales .titulo {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.redes-sociales a:hover {
+    color: #df688c;
+}
+
+.newsletter {
+    margin-left: 20px;
+}
+
+.newsletter input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.newsletter button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+.newsletter button:hover {
+    background-color: #6e0021;
+    color: #ffffff;
+}
+
+.inferior {
+    background-color: #222222a8;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 75px;
+    width: 100%;
+}
+
+.inferior p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.inferior a {
+    color: #fff;
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+.inferior a:hover {
+    color: #ddd;
+}
+
+
+/*--------------------------------*/

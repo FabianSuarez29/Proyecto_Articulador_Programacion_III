@@ -21,8 +21,8 @@ public class AddServletMundial extends HttpServlet {
 	}
 	/*
 	@EJB
-	AddEJBMundial objeto;
- */
+	AddEJBMundial objeto;*/
+
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
