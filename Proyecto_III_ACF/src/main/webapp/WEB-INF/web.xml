@@ -11,16 +11,6 @@
   </welcome-file-list>
   <servlet>
     <description></description>
-    <display-name>mundialServlet</display-name>
-    <servlet-name>mundialServlet</servlet-name>
-    <servlet-class>mundialServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>mundialServlet</servlet-name>
-    <url-pattern>/mundialServlet</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
     <display-name>AddServletMundial</display-name>
     <servlet-name>AddServletMundial</servlet-name>
     <servlet-class>AddServletMundial</servlet-class>

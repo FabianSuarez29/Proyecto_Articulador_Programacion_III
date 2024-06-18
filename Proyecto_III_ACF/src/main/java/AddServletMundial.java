@@ -6,7 +6,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-import ejbs.AddEJBMundial;
+//import ejbs.AddEJBMundial;
 import jakarta.ejb.EJB;
 
 /**
@@ -19,10 +19,10 @@ public class AddServletMundial extends HttpServlet {
 	public AddServletMundial() {
 		super();
 	}
-
+	/*
 	@EJB
 	AddEJBMundial objeto;
-
+ */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
