@@ -7,11 +7,28 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Predicción del Partido</title>
+     <link rel="icon" href="img/balon-de-futbol.png" type="image/x-icon">
+    <title>Predicción de Partidos</title>
+    <link rel="stylesheet" href="style_prediccion.css">
 </head>
     
+<body style="margin-top: 70px;">
+    <header id="header">
+        <nav id="nav">
+            <ul class="nav">
+                <img id="logo_champions" src="img/logo-champions-icono.png" alt="icon_champions">
+                <li class="title"><a class="title" href="champions.jsp">CHAMPIONS 2024</a></li>
+                <li class="title"><a class="title" href="home.jsp">HOME</a></li>
+                <li class="title"><a class="title" href="mundial.jsp">MUNDIAL QATAR 2022</a></li>
+                <img id="logo_mundial" src="img/logoqatar.png" alt="icon_mundial">
+            </ul>
+        </nav>
+    </header>
     
-    <h1>Apuesta Y Gana</h1>
+    <h1>APUESTA Y GANA EN LA COPA AMÉRICA 2024</h1>
+    
+    <p>Esta tabla especifíca los datos obtenidos de las selecciones que participaran en la COPA AMÉRICA 2024 en sus ultimos 3 partidos disputados, esto con el fin
+    de ver como llegan estas selecciones al certamen, con estos datos te daremos algunos pronósticos para que puedas apostar en tu plataforma de confianza.</p>
 
 	<sql:setDataSource var="dbSource" driver="com.mysql.cj.jdbc.Driver"
 		url="jdbc:mysql://localhost:3306/proyecto_futbol" user="dba"
@@ -53,10 +70,12 @@
 	</table>
 	<br>
 	
-	<a href="formulario.jsp"> Ingresar Nuevo País</a> <br><br>
-	<a href="editarFormulario.jsp"> Editar País</a> <br><br>
-	<a href="eliminarFormulario.jsp"> Eliminar País</a> <br><br>
-	<c:url var="javaFileUrl" value="/formularioAgregar" />
-    <a href="${javaFileUrl}">Ver Pronósticos</a>
+	<div class="button-container">
+        <a href="formulario.jsp" class="button">Ingresar Nuevo País</a>
+        <a href="editarFormulario.jsp" class="button">Editar País</a>
+        <a href="eliminarFormulario.jsp" class="button">Eliminar País</a>
+        <c:url var="javaFileUrl" value="/formularioAgregar" />
+        <a href="${javaFileUrl}" class="button">Ver Pronósticos</a>
+    </div>
 </body>
 </html>

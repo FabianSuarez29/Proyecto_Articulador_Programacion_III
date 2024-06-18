@@ -1,6 +1,4 @@
-@charset "ISO-8859-1";
-
-/* Importación Fuente de Google*/
+/* ImportaciÃ³n Fuente de Google*/
 
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
@@ -44,7 +42,7 @@ a.title {
     text-decoration: none;
     /* Elimina el subrayado */
     transition: color 0.3s;
-    /* Transición suave para el cambio de color */
+    /* TransiciÃ³n suave para el cambio de color */
 }
 
 a.title:hover {
@@ -84,9 +82,9 @@ li.title {
 
 #banner img {
     flex: 1;
-    /* Hace que las imágenes ocupen el mismo espacio dentro del contenedor flex */
+    /* Hace que las imÃ¡genes ocupen el mismo espacio dentro del contenedor flex */
     object-fit: cover;
-    /*mantiene el tamaño sin desproporcionar imagen*/
+    /*mantiene el tamaÃ±o sin desproporcionar imagen*/
     width: 50%;
     height: 60vh;
 }
@@ -156,6 +154,21 @@ li.title {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+button#button3 {
+    top: 100px;
+    left: 0%;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #6e0021;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    cursor: pointer;
+    border-color: #ffffff;
+    z-index: 2;
+
 }
 
 button#button2 {
@@ -357,7 +370,7 @@ tr:hover {
     align-items: center;
 }
 
-/*AÑOS COPAS DEL MUNDO*/
+/*AÃ‘OS COPAS DEL MUNDO*/
 
 .copas {
     width: 35%;
@@ -427,7 +440,7 @@ footer {
     font-family: "Russo One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-image: url("../img/background-champions-2.webp");
+    background-image: url("img/background-champions-3.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

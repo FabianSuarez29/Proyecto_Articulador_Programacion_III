@@ -11,7 +11,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Futbol Scores</title>
-    <link rel="icon" href="assets/img/balon-de-futbol.png" type="image/x-icon">
+    <link rel="icon" href="img/balon-de-futbol.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300|Cinzel+Decorative:700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
@@ -26,11 +26,11 @@
     <header id="header">
         <nav id="nav">
             <ul class="nav">
-                <img id="logo_champions" src="assets/img/logo-champions-icono.png" alt="icon_champions">
-                <li class="title"><a class="title" href="competencias/champions.html">CHAMPIONS 2024</a></li>
-                <li class="title"><a class="title" href="index.html">HOME</a></li>
-                <li class="title"><a class="title" href="competencias/mundial.html">MUNDIAL QATAR 2022</a></li>
-                <img id="logo_mundial" src="assets/img/logoqatar.png" alt="icon_mundial">
+                <img id="logo_champions" src="img/logo-champions-icono.png" alt="icon_champions">
+                <li class="title"><a class="title" href="champions.jsp">CHAMPIONS 2024</a></li>
+                <li class="title"><a class="title" href="home.jsp">HOME</a></li>
+                <li class="title"><a class="title" href="mundial.jsp">MUNDIAL QATAR 2022</a></li>
+                <img id="logo_mundial" src="img/logoqatar.png" alt="icon_mundial">
             </ul>
         </nav>
     </header>
@@ -41,17 +41,17 @@
     
     <div id="banner">
         <h1>MEJORES COMPETICIONES</h1>
-        <img id="bg_champions" src="assets/img/background-champions-3.jpg" alt="icon_champions">
-        <img id="bg_qatar" src="assets/img/background-qatar.png" alt="icon_champions">
+        <img id="bg_champions" src="img/background-champions-3.jpg" alt="icon_champions">
+        <img id="bg_qatar" src="img/background-qatar.png" alt="icon_champions">
         <div id="super">
-            <img id="trof_1" src="assets/img/trofeo-champions.png" alt="superpuesta1">
-            <img id="trof_2" src="assets/img/copa-mundial.png" alt="superpuesta2">
+            <img id="trof_1" src="img/trofeo-champions.png" alt="superpuesta1">
+            <img id="trof_2" src="img/copa-mundial.png" alt="superpuesta2">
         </div>
         <div>
-            <a id="btns" href="competencias/champions.html">
+            <a id="btns" href="champions.jsp">
                 <button id="button1">MÁS INFORMACIÓN</button>
             </a>
-            <a id="btns" href="competencias/mundial.html">
+            <a id="btns" href="mundial.jsp">
                 <button id="button2">MÁS INFORMACIÓN</button>
             </a>
         </div>
@@ -111,13 +111,13 @@
                 </div>
                 <div class="col5">
                     <h3>MÁXIMO GOLEADOR</h3>
-                    <img class="cr7" src="assets/img/cristiano-ronaldo-png.png" alt=""> <br><br>
+                    <img class="cr7" src="img/cristiano-ronaldo-png.png" alt=""> <br><br>
                     <p>CRISTIANO RONALDO</p>
                     <p><strong>140 Goles</strong></p>
                 </div>
                 <div class="col5">
                     <h3>MÁXIMO GOLEADOR</h3>
-                    <img class="klose" src="assets/img/miroslav-klose.png" alt=""> <br><br>
+                    <img class="klose" src="img/miroslav-klose.png" alt=""> <br><br>
                     <p>MIROSLAV KLOSE</p>
                     <p><strong>16 Goles</strong></p>
                 </div>
@@ -151,19 +151,19 @@
                 <h2 class="title-emblema">JUGADORES/EQUIPOS EMBLEMATICOS</h2>
                 <div id="jugadores">
                     <div>
-                        <img class="emblema" src="assets/img/real-madrid.png" alt=""><br><br>
+                        <img class="emblema" src="img/real-madrid.png" alt=""><br><br>
                         <p>PRIMER GANADOR <br> <strong>1956</strong></p>
                     </div>
                     <div>
-                        <img class="emblema" src="assets/img/tony-kross.png" alt=""><br><br>
+                        <img class="emblema" src="img/tony-kross.png" alt=""><br><br>
                         <p>MÁS GANADOR <br> <strong>5 Champions</strong></p>
                     </div>
                     <div>
-                        <img class="emblema" src="assets/img/pele-png.png" alt=""><br><br>
+                        <img class="emblema" src="img/pele-png.png" alt=""><br><br>
                         <p>MÁS GANADOR <br> <strong>3 Mundiales</strong></p>
                     </div>
                     <div>
-                        <img class="emblema" src="assets/img/uruguay.png" alt=""><br><br>
+                        <img class="emblema" src="img/uruguay.png" alt=""><br><br>
                         <p>PRIMER GANADOR<br> <strong>1930</strong></p>
                     </div>
                 </div>
@@ -293,8 +293,8 @@
     <footer>
         <div class="container">
             <div class="logos">
-                <img src="assets/img/logoqatar.png" alt="Logo 1">
-                <img src="assets/img/ucl-logo-blanco.png" alt="Logo 2">
+                <img src="img/logoqatar.png" alt="Logo 1">
+                <img src="img/ucl-logo-blanco.png" alt="Logo 2">
             </div>
             <div class="redes-sociales">
                 <h2 class="titulo">REDES SOCIALES</h2>
@@ -310,11 +310,11 @@
             </div>
             <div class="newsletter">
                 <h2>Suscribete a nuestro Newsletter</h2>
-                <form id="formulario">
+                <form id="formulario" action="guardarSuscriptores.jsp" method="post">
                     <input type="email" id="email" name="email" required placeholder="Ingresa tu Correo" required>
                     <button type="submit">Suscribirme</button>
                 </form>
-                <script src="assets/js/main.js"></script>
+                <script src="main.js"></script>
             </div>
         </div>
         <div class="inferior">

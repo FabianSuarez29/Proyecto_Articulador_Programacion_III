@@ -8,9 +8,14 @@ body {
     padding: 20px;
 }
 
-h1, h2, h3 {
+h1, h2 {
     text-align: center;
+     color: #007bff;
 }
+
+
+   
+
 
 .tables {
     display: grid;
@@ -36,7 +41,8 @@ th, td {
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #007bff;
+    color: white;
 }
 
 tr:nth-child(even) {
@@ -46,6 +52,29 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #e0ce4e;
 }
+
+/* Button Styles */
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+a.button:hover {
+    background-color: #0056b3;
+    
+}
+
+
 
 /* Estilos responsivos */
 
