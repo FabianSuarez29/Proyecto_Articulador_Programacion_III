@@ -69,9 +69,15 @@ public class FormularioAgregarServlet extends HttpServlet {
 			String sql;
 			sql = "SELECT * FROM seleccion;";
 			ResultSet rs = stmt.executeQuery(sql);
+			out.println("			<div class=\"button-container\">\r\n"
+					+ "	        <a href=\"mostrarPrediccion.jsp\" class=\"button\">Regresar</a>\r\n"
+					+ "	    </div>");
 			out.println("<p>Los siguientes datos son suministrados de fuentes confiables, muestran una probabilidad estadistica de que una selección pueda obtener"
 					+ " los respectivos resultados propuestos, se responsable con las apuestas. </p>");
-			out.println("<h2>Datos de las selecciones: Pronostico primer partido </h2>");
+			out.println("<h2>Datos de las selecciones: Pronóstico para el primer partido </h2>");
+			
+
+			
 			// Extract data from result set
 			while (rs.next()) {
 				// Retrieve by column name
@@ -99,7 +105,7 @@ public class FormularioAgregarServlet extends HttpServlet {
 
 
 				out.println("""
-						       		<h3>País: %s</h3>
+						       		<h3>%s</h3>
 						       		<table border="1">
 						    <tr>
 						        <th>Id</th>

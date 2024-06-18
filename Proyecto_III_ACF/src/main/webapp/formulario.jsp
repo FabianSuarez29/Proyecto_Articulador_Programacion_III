@@ -5,6 +5,8 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Ingresar Nueva Selección</title>
+<link rel="icon" href="img/balon-de-futbol.png" type="image/x-icon">
+<link rel="stylesheet" href="style_prediccion.css">
 </head>
 <body>
 
