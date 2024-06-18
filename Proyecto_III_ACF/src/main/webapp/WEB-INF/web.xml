@@ -9,4 +9,24 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>AddLogin</display-name>
+    <servlet-name>AddLogin</servlet-name>
+    <servlet-class>AddLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddLogin</servlet-name>
+    <url-pattern>/AddLogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CreateUser</display-name>
+    <servlet-name>CreateUser</servlet-name>
+    <servlet-class>CreateUser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateUser</servlet-name>
+    <url-pattern>/CreateUser</url-pattern>
+  </servlet-mapping>
 </web-app>
